@@ -1,46 +1,24 @@
 ﻿// See https://aka.ms/new-console-template for more information
-namespace Program
-{
+//namespace Program
+//{
 
-    class Mahasiswa
-    {
-
-        public string Nama;
-
-
-
-        public void Named()
-        {
-            Nama = "Putu Wahyu Putra Suartama";
-
-           
-
-        }
+//    class Program
+//    {
+//        public string Nama;
+//        public string Jenis;
 
 
+//        public Program(string nmNama, string nmJenis)
+//        {
+//            Nama = nmNama;
+//            Jenis = nmJenis;
+            
+//        }
 
 
-    }
+//    }
 
-    class Identity
-    {
-        static void Main(string[] args)
-        {
-            var Maha = new Mahasiswa();
-            Maha.Named();
-            Console.WriteLine(Maha.Nama);
-
-        }
-
-    }
-
-
-
-
-
-
-
-}
+//}
     
 
   
