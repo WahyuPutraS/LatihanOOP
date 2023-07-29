@@ -10,6 +10,8 @@ namespace Project1
     {
         private string Nama;
         private string Jenis;
+        private int Umur;
+        
 
         public string _Nama_
         {
@@ -24,11 +26,24 @@ namespace Project1
 
         }
 
+        public int _Umur_
+        {
+            get { return Umur; }
+            set { Umur = value;  }
+        }
 
-        public Learn(string nmNama, string nmJenis)
+
+        public string Alamat;
+        public int NoHp;
+
+
+        public Learn(string nmNama, string nmJenis, string nmAlamat, int NOOhp, int Age )
         {
             Nama = nmNama;
             Jenis = nmJenis;
+            Alamat = nmAlamat;
+            NoHp = NOOhp;
+            Umur = Age;
 
         }
 
