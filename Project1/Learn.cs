@@ -11,7 +11,8 @@ namespace Project1
         private string Nama;
         private string Jenis;
         private int Umur;
-        
+        private string Alamat;
+
 
         public string _Nama_
         {
@@ -31,9 +32,14 @@ namespace Project1
             get { return Umur; }
             set { Umur = value;  }
         }
+        public string _Alamat_
+        {
+            get { return Alamat; }
+            set { Alamat = value; }
+        }
 
 
-        public string Alamat;
+       
         public int NoHp;
 
 

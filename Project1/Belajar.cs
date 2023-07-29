@@ -13,7 +13,7 @@ namespace Project1
             var Employee = new Learn("Kurniawan", "Programer","Jln GN Agung", 0867483748,29);
             Console.WriteLine(Employee._Nama_);
             Console.WriteLine(Employee._Jenis_);
-            Console.WriteLine(Employee.Alamat);
+            Console.WriteLine(Employee._Alamat_);
             Console.WriteLine(Employee.NoHp);
             Console.WriteLine(Employee._Umur_);
 
